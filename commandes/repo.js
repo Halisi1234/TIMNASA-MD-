@@ -27,7 +27,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 ┃🧧 *FORKS:* ${repoInfo.forks}
 ┃📅 *RELEASE DATE:* ${releaseDate}
 ┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-┃👨‍💻 *OWNER* :Cod3Uchiha
+┃👨‍💻 *OWNER* :timotheo
 ┗❏`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
