@@ -10,13 +10,13 @@ const fs = require("fs-extra");
 const conf = require("../set");
 const { default: axios } = require('axios');
 const {generatepp} = require('../framework/mesfonctions')
-//const { uploadImageToImgur } = require('../framework/imgur');
+}';//const { uploadImageToImgur } = require('../framework/imgur');
 
 
 
 
 
-zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣😶‍🌫️🥶:💬" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions
 
@@ -94,7 +94,7 @@ zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, as
         continue;
       }
       else { return true }
-      //membre=//(m.id==auteurMsgRepondu? return true) :false;
+      ";( //membre=//(m.id==auteurMsgRepondu? return true) :false;
     }
   }
 
