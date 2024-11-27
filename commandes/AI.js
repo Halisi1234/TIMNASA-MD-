@@ -9,13 +9,13 @@ const conf = require('../set');
 
 
 
-zokou({nomCom:"tkm",reaction:"📡",categorie:"Ai"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"bot",reaction:"📡",categorie:"Ai"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("yes I'm listening to you.")}
-    //var quest = arg.join(' ');
+    {return repondre("yes timnasa I'm listening to you.")}
+    //var quest = arg.join('timnasa ');
   try{
     
     
@@ -37,11 +37,11 @@ fetch(`http://api.brainshop.ai/get?bid=182418&key=UQXAO1yyrPLRnhf6&uid=[uid]&msg
     });
 })
 .catch(error => {
-  console.error('Error requesting BrainShop :', error);
-  repondre('Error requesting BrainShop');
+  console.error('Error requesting BrainShop by timnasa :', error);
+  repondre('Error requesting BrainShop by timnasa ');
 });
 
-  }catch(e){ repondre("oops an error : "+e)}
+  }catch(e){ repondre("oops an error invalid: "+e)}
     
   
   });  
@@ -61,7 +61,7 @@ fetch(`http://api.brainshop.ai/get?bid=182418&key=UQXAO1yyrPLRnhf6&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '┃powered by ⬡〘TKM md〙⬡┃';
+      let caption = '┃powered by ⬡〘𝗧𝗜𝗠𝗡𝗔𝗦𝗔 𝗠𝗗〙⬡┃';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
