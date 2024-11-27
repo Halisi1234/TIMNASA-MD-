@@ -167,7 +167,7 @@ zokou(
     }
   );
 
-// Cas pour l'effet "smooth"
+}:" // Cas pour l'effet "smooth"
 zokou(
     {
       nomCom: 'smooth',
@@ -204,7 +204,7 @@ zokou(
     }
   );
   
-  // Cas pour l'effet "tempo"
+}"// Cas pour l'effet "tempo"
   zokou(
     {
       nomCom: 'tempo',
@@ -241,7 +241,7 @@ zokou(
     }
   );
   
-  // Cas pour l'effet "nigtcore"
+ );" // Cas pour l'effet "nigtcore"
   zokou(
     {
       nomCom: 'nightcore',
