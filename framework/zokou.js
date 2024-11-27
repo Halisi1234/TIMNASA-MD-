@@ -9,7 +9,7 @@ function zokou(obj, fonctions) {
     infoComs.categorie = "General";
   }
   if (!obj.reaction) {
-    infoComs.reaction = "❄️";
+    infoComs.reaction = "🥸";
   }
   if (!obj.alias) {
     obj.alias = [];
