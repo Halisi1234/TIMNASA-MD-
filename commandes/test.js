@@ -7,11 +7,11 @@ zokou(
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello my name is  *⬡TKM⬡* \n\n " +
+            "Hello my name is  *⬡TIMNASA-MD⬡* \n\n " +
             "i'm a whatsapp bot multi-device";
         let d = " by *Cod3Uchiha*";
         let varmess = z + d;
-        var img = "https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg";
+        var img = "https://files.catbox.moe/ufgvu9.jpg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
         //console.log("montest")
     }
@@ -82,8 +82,8 @@ const sentMsg6 = await zk.sendMessage(dest, buttonMessage)
 
 //send a template message!
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/adiwajshing/Baileys'}},
-    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
+    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Halisi1234/TIMNASA-MD-'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (255784766591'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
