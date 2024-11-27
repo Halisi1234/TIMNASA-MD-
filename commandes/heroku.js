@@ -11,16 +11,16 @@ zokou(
        const {ms,repondre,superUser , arg} = commandeOptions ;
        
        if(!superUser){repondre('only Mods can use this commande');return};
-       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME=Beltah');return};
+       if(!arg[0] || !(arg.join('').split('='))) {repondre('Bad format ; Exemple of using :\nSetvar OWNER_NAME_TIMNASA-MD);return};
      
     const text = arg.join(" ")
      const Heroku = require("heroku-client");
    
      const heroku = new Heroku({
         token: s.HEROKU_APY_KEY,
-      });
+      });"TIMNASA-MD"
 
-     let baseURI = "/apps/" + s.HEROKU_APP_NAME;
+     let baseURI = "/apps/" + s.HEROKU_APP_NAME;"(TIMNASA-MD")
         await heroku.patch(baseURI + "/config-vars", {
           body: {
                   [text.split('=')[0]]: text.split('=')[1],
@@ -44,12 +44,12 @@ zokou(
 
 			const heroku = new Heroku({
 				token: s.HEROKU_APY_KEY,
-			});
+			});"TIMNASA-MD 
 			let baseURI = "/apps/" + s.HEROKU_APP_NAME;
 
             let h = await heroku.get(baseURI+'/config-vars')
 let str = '*TIMNASA-MD all vars*\n\n'
-for (vr in h) {
+for (vr in h) '{TIMNASA-MD}
 str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
 }
  repondre(str)
@@ -78,7 +78,7 @@ str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
             let baseURI = "/apps/" + s.HEROKU_APP_NAME;
         let h = await heroku.get(baseURI+'/config-vars')
         for (vr in h) {
-        if( arg.join(' ') ===vr ) return  repondre( vr+'= '+h[vr]) 	;
+        if( arg.join(' ') ===vr ) return  repondre( vr+'= '+h[vr]) 	;"TIMNASA-MD 
         } 
         
         } catch(e) {repondre('Error' + e)}
