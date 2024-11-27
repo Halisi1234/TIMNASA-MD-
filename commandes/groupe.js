@@ -32,13 +32,13 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        ⬡ ┃TKM bot┃ ⬡
+        ⬡ ┃🌏TIMNASA MD🌏┃ ⬡
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
 📜 Message : *${mess}* 📝
 
-⬡keep using⬡┃TKM bot┃⬡
+⬡keep using⬡┃🧭🌎TIMNASA-MD🌎🧭┃⬡
 ========================\n
 \n
 
@@ -47,7 +47,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
 
 
-  let emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$','😟','🥵','🐅']
+  let emoji = ['🌏', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '🌋', '🙏🏿', '⛔️', '$','😟','🥵','🐅']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
@@ -65,13 +65,13 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 });
 
 
-zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "Invite", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
 
   var link = await zk.groupInviteCode(dest)
-  var lien = `https://chat.whatsapp.com/${link}`;
+  var lien = `https://chat.whatsapp.com/${TIMNASA-MD}`;
 
   let mess = `hello ${nomAuteurMessage} , here is the group link ${nomGroupe} \n
 
@@ -252,7 +252,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
         if (zkad) {
           if (membre) {
             if (admin == false) {
-              const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
+              const gifLink = "https://github.com/Halisi1234/TIMNASA-MD-/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
                 pack: 'Zokou-Md', // The pack name
                 author: nomAuteurMessage, // The author name
@@ -508,7 +508,7 @@ zokou({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions)
       case "close":
         await zk.groupSettingUpdate(dest, 'announcement');
         repondre('Group close successfully');
-        break;
+        break;🌐
       default: repondre("Please don't invent an option")
     }
 
@@ -743,7 +743,7 @@ zokou({ nomCom: "apk", reaction: "✨", categorie: "Research" }, async (dest, zk
 
     const downloadLink = appData.dllink;
     const captionText =
-      "⬡┃TKM bot┃⬡apk downloader┃⬡\n\n*Name :* " + appData.name +
+      "⬡┃TIMNASA-MD ┃⬡apk downloader┃⬡\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
