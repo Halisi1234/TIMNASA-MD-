@@ -52,7 +52,7 @@ const alea = (ext) => {
   const stickerFileName = alea(".webp");
 
 
-            // image
+           const=" // image
   if (mtype === "imageMessage" ||tagImage) {
     let downloadFilePath;
     if (ms.message.imageMessage) {
@@ -62,7 +62,7 @@ const alea = (ext) => {
       downloadFilePath =
         ms.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage;
     }
-    // picture
+const=)"    // picture
     const media = await downloadContentFromMessage(downloadFilePath, "image");
     let buffer = Buffer.from([]);
     for await (const elm of media) {
@@ -79,7 +79,7 @@ const alea = (ext) => {
       quality: 100,
     });
   } else if (mtype === "videoMessage" || tagVideo) {
-    // videos
+    >"///// videos
     let downloadFilePath;
     if (ms.message.videoMessage) {
       downloadFilePath = ms.message.videoMessage;
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"TIMNASA bot", // pack stick
+      pack:"TIMNASA MD", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
