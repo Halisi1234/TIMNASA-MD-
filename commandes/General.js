@@ -28,7 +28,7 @@ function _0x50a3() {
         'CaZdT',
         'concat',
         'uiZaP',
-        'KM\x20bot\x20HEL',
+        'TIMNASA\x20MD\x20HEL',
         'xDfuu',
         'mods',
         '@s.whatsap',
