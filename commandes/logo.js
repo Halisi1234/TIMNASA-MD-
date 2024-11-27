@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker TKM bot");
+        repondre("*__Exemple : * " + prefixe + "hacker TIMNASA-MD");
         return;
     }
     try {
@@ -15,7 +15,7 @@ zokou({ nomCom: "hacker",
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
         repondre("* processing...*");
-        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: " \t Logo by ⬡┃TKM bot┃⬡" }, { quoted: ms });
+        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: " \t Logo by ⬡┃TIMNASA-MD ┃⬡" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -24,7 +24,7 @@ zokou({ nomCom: "hacker",
 zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
     try {
-        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball TKM bot`;
+        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball TIMNASA-MD`;
         //  if(arg=='') {await zok.sendMessage(dest,{text:noArgMsg},{quoted:infoMessage}); return;}
         if (arg == '' || !arg) {
             repondre(noArgMsg);
@@ -39,13 +39,13 @@ zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest
         await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
-        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: " \t Logo by ⬡┃TKM bot┃⬡" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: " \t Logo by ⬡┃TIMNASA-MD┃⬡" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
     }
 });
-////////////////////////////
+//////////////TIMNASA-LOGO//////////////
 zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
@@ -69,7 +69,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
 /*zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, arg, prefixe } = commandeOptions;
     
-    var titre = "\t Logo by ⬡┃TKM bot┃⬡";
+    var titre = "\t Logo by ⬡┃TIMNASA MD┃⬡";
     try {
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
@@ -94,7 +94,7 @@ zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk
      var titre = "\tLogo by ⬡┃TKM bot┃⬡";
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
-           repondre(`*exemple :* ${prefixe}didong TKM bot`)
+           repondre(`*exemple :* ${prefixe}didong TIMNASA-MD `)
             return ;
         }
      
@@ -114,7 +114,7 @@ zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk
 zokou({nomCom : "wall",categorie : "Logo",reaction : "👍"} , async (dest,zk,commandeOptions) =>{
 
   const {arg,repondre,ms,prefixe} = commandeOptions;
-  if(!arg[0]) { repondre( `Exemple of using commande:\n ${prefixe}wall TKM bot` ); return ;}
+  if(!arg[0]) { repondre( `Exemple of using commande:\n ${prefixe}wall TIMNASA-MD ` ); return ;}
    let text = arg.join(" ")
    mumaker.textpro("https://textpro.me/break-wall-text-effect-871.html", text)
 .then((data) =>{
@@ -156,7 +156,7 @@ zokou({nomCom: "neonlight", categorie: "Logo", reaction: "💡"}, async (dest, z
     let maker=await mumaker.textpro("https://textpro.me/create-glowing-neon-light-text-effect-online-free-1061.html",arg)
     //repondre(stringify(maker))
     /*.then((data) => {*/
-     zk.sendMessage(dest, { image: { url: maker.image }, caption: 'Logo by' }, { quoted: ms });
+     zk.sendMessage(dest, { image: { url: maker.image }, caption: 'Logo by TIMNASA-MD' }, { quoted: ms });
     
     /*.catch(console.error);*/
 
@@ -209,7 +209,7 @@ zokou({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, c
     })
     .catch(console.error);
 });
-////////////////////
+/////////TIMNASA-MD///////////
 zokou(
   {nomCom:"explode",categorie:
     "Logo",reaction:"💥"},async(dest,zk,commandeOptions)=>{
@@ -242,9 +242,9 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
          
 
 repondre("  processing ...")
-         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t Logo by ⬡┃TKM bot┃⬡"})
+         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t Logo by ⬡┃TIMNASA-MD ┃⬡"})
          
-        // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t Logo by ⬡┃TKM bot┃⬡"})
+        // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t Logo by ⬡┃TIMNASA-MD ┃⬡"})
          
 
 
@@ -266,7 +266,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
     var lien ="https://en.ephoto360.com/create-water-effect-text-online-295.html";
     var img =await mumaker.ephoto(lien,arg);
     repondre(" processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:"  Logo by ⬡┃TKM bot┃⬡"})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:"  Logo by ⬡┃TIMNASA-MD ┃⬡"})
   }catch(e){repondre(`🥵🥵 ${e}`)}
 
 });
@@ -332,7 +332,7 @@ zokou({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, a
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by TIMNASA-MD' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -349,7 +349,7 @@ zokou({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, c
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by TIMNASA-MD' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -385,7 +385,7 @@ zokou({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest,
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by TIMNASA-MD' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -457,7 +457,7 @@ zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,z
 
     var img = await mumaker.ephoto(lien,arg);
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" Logo by ⬡┃TKM bot┃⬡"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" Logo by ⬡┃TIMNASA-MD ┃⬡"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -469,7 +469,7 @@ zokou({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOp
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"arena TKM bot");return;
+        repondre(prefixe+"arena TIMNASA-MD");return;
       }
 
     var lien="https://en.ephoto360.com/create-cover-arena-of-valor-by-mastering-360.html";
@@ -494,6 +494,6 @@ zokou({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,com
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" Logo by ⬡┃TKM bot┃⬡"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" Logo by ⬡┃TIMNASA-MD ┃⬡"},{quoted:ms})
   }catch(e){repondre(e)}
 })
