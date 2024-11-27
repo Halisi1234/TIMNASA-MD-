@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- _TKM-bot_`
+ _TIMNASA-MD_`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _TIMNASA-bot_ is running on server 99. ')
+repondre(' _TIMNASA-MD_ is running on server 99. ')
 
 }
     });
