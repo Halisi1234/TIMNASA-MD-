@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -22,7 +22,7 @@ zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * TKM-bot * ╩═══\n\n";
+    let menuMsg = "  ╩═══ * 𝗧𝗜𝗠𝗡𝗔𝗦𝗔 * ╩═══\n\n";
     /*menuMsg+=`
     
     
@@ -67,7 +67,7 @@ zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    var link = "https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg";
+    var link = "https://files.catbox.moe/ufgvu9.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
