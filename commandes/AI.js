@@ -48,7 +48,7 @@ fetch(`http://api.brainshop.ai/get?bid=182418&key=UQXAO1yyrPLRnhf6&uid=[uid]&msg
 
 
 
-  zokou({ nomCom: "dalle", reaction: "📡", categorie: "Ai" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "timna", reaction: "📡", categorie: "Ai" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -119,7 +119,7 @@ zokou(
       await react(dest, zk, ms, '🤖');
     } else {
       await zk.sendMessage(dest, {text: 'an error occred generating resopnce', edit: msg.key}, {quoted: ms});
-      await react(dest, zk, ms, '⚠️');
+      await react(dest, zk, ms, 'timnasa erro⚠️');
     }
   }
   )
