@@ -7,8 +7,8 @@ let hdb = require('../bdd/hentai') ;
 
 
 zokou({
-  nomCom: "hwaifu",
-  categorie: "Hentai",
+  nomCom: "twaifu",
+  categorie: "tHentai",
   reaction: "🍑"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -33,7 +33,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 
-  /////////////// hneko //////////
+  /////////////// THENEKO //////////
 zokou({
   nomCom: "trap",
   categorie: "Hentai",
@@ -63,7 +63,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 zokou({
-  nomCom: "hneko",
+  nomCom: "tneko",
   categorie: "Hentai",
   reaction: "🍑"
 },
