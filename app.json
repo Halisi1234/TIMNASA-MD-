@@ -2,7 +2,7 @@
   "name":"TIMNASA-bot",
   "description":"Deploy your TIMNASA bot now.Brought to you by the timotheo.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg",
+  "logo":"https://files.catbox.moe/ufgvu9.jpg",
   "repository":"https://github.com/Halisi1234/TIMNASA-MD-",
   "succes_url":"/",
   "stack":"container",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg",
+      "value":"https://files.catbox.moe/ufgvu9.jpg",
       "required":false
        
      },
