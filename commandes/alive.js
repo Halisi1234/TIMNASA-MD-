@@ -12,9 +12,9 @@ zokou(
 
  const {ms , arg, repondre,superUser} = commandeOptions;
 
- const data = await getDataFromAlive();
+ const data = await getDataFromAlive('timnasa+alive today');
 
- if (!arg || !arg[0] || arg.join('') === '') {
+ if (!arg || !arg[0] || arg.join('timnasa alive now') === '') {
 
     if(data) {
        
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _TKM-bot_ is running on server 99. ')
+repondre(' _TIMNASA-bot_ is running on server 99. ')
 
 }
     });
