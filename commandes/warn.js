@@ -33,7 +33,7 @@ if(verifAdmin || superUser) {
     repondre("Warn count has been reset for this user")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
    
 }  else {
-    repondre('you are not admin')
+    repondre('you are not timnasa)
 }
  
    });
