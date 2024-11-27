@@ -106,7 +106,7 @@ let { reagir } = require(__dirname + "/framework/app");
 var session = conf.session;
 const prefixe = conf.PREFIXE;
 // channel link
-global.link = "https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g";
+global.link = "https://whatsapp.com/channel/0029VarwsIB8F2pG9QWm3n1Z";
 
 let lastApiCall = 0;
 async function authentification() {
@@ -167,7 +167,7 @@ setTimeout(() => {
             logger: pino({
                 level: "silent"
             }),
-            browser: ["TKM-bot", "safari", "1.0.0"],
+            browser: ["TIMNASA-bot", "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -835,7 +835,7 @@ setTimeout(() => {
                     const gifLink =
                         "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                     var sticker = new Sticker(gifLink, {
-                        pack: "TKM-bot",
+                        pack: "TIMNASA-bot",
                         author: conf.OWNER_NAME,
                         type: StickerTypes.FULL,
                         categories: ["🤩", "🎉"],
@@ -1310,7 +1310,7 @@ setTimeout(() => {
                 if (conf.DP.toLowerCase() === "yes") {
                     let cmsg = `
 ╔───⬡
-┃ ┃⬡TKM bot⬡┃
+┃ ┃⬡TIMNASA bot⬡┃
 ┃    Prefix : [ ${prefixe} ]
 ┃    Mode :${md}
 ┃    Total Commandes : ${evt.cm.length}︎
@@ -1320,10 +1320,10 @@ setTimeout(() => {
  report any. problems to the devs:)
  Thanks for supporting
  this project
- property of Cod3Uchiha
- property of Takudzwa Mlambo
- © Cod3Uchiha
- © Takudzwa Mlambo
+ property of Timoth
+ property of Timnasa Timotheo
+ © HalisiTimnasa
+ © TimnasaTimoth
 ╚─────────────────···▸▸`;
                     await zk.sendMessage(zk.user.id, {
                         text: cmsg
