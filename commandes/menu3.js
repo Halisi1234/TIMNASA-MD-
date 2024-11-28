@@ -23,7 +23,7 @@ zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOption
     console.log("date" + date);
     console.log("temps " + temps);
     let menuMsg = "  ╩═══ * 𝗧𝗜𝗠𝗡𝗔𝗦𝗔 * ╩═══\n\n";
-    /*menuMsg+=`
+   " /*menuMsg+=`
     
     
     
@@ -33,8 +33,8 @@ zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOption
     
     
       
-    ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
-    /* menuMsg+=`
+ "/   ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+" {    /* menuMsg+=`
    ╔════ ▓▓ ࿇ ▓▓ ════╗
    
    ||
