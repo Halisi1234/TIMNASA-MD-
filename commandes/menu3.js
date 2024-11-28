@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tiara", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -18,12 +18,12 @@ zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOption
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
-    moment.tz.setDefault('asia/karachi ').locale("id");
-    const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
+    moment.tz.setDefault('Africa/Nairobi').locale("id");
+    const date = moment.tz("Africa/Nairobi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * 𝗧𝗜𝗠𝗡𝗔𝗦𝗔 * ╩═══\n\n";
-   " /*menuMsg+=`
+    let menuMsg = "  ═══ *TIMNASA MD* ═══\n\n";
+    /*menuMsg+=`
     
     
     
@@ -33,43 +33,43 @@ zokou({ nomCom: "timnasa1", categorie: "Menu" }, async (dest, zk, commandeOption
     
     
       
- "/   ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
-" {    /* menuMsg+=`
-   ╔════ ▓▓ ࿇ ▓▓ ════╗
+    ╚═════ ࿇ ═════╝*/
+    /* menuMsg+=`
+   ╔════ ࿇ ════╗
    
+   |👽|
+   |👽|     Préfixe : ${s.prefixe}
+   |👽|      Owner : ${s.NOM_OWNER}
+   |👽|      Commandes : ${cm.length}
+   |👽|      Date : ${date}
+   |👽|      Heure : ${temps}
+   |👽|      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
+   ||  Développeurs : King Marisel+|
    ||
-   ||     Préfixe : ${s.prefixe}
-   ||      Owner : ${s.NOM_OWNER}
-   ||      Commandes : ${cm.length}
-   ||      Date : ${date}
-   ||      Heure : ${temps}
-   ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : Djalega++||Luffy
-   ||
-   ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+   ╚════👽 ▓▓ ࿇ ▓▓ 👽════╝`;*/
     menuMsg += `
 ╔════---------
-║    Préfix : ${s.PREFIXE}
-║    Owner : ${s.NOM_OWNER}    
-║    Mode : ${mode}
-║    Plugins :${cm.length}
-║    Date : ${date}
-║    Time : ${temps}
-║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-║    Platform : ${os.platform()}
+║😈    Préfix : ${s.PREFIXE}
+║😈    Owner : ${s.NOM_OWNER}    
+║😈    Mode : ${mode}
+║😈    Plugins :${cm.length}
+║😈    Date : ${date}
+║😈    Time : ${temps}
+║😈    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║😈    Platform : ${os.platform()}
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "🔋";
+            emoji[cat] = "👾";
         }
-        menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
+        menuMsg += `${emoji[cat]} ══ *${cat}* ══ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    var link = "https://files.catbox.moe/ufgvu9.jpg";
+    var link = "https://i.imgur.com/rhN88rS.jpeg";
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TIMNASA-MD" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
