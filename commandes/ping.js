@@ -16,7 +16,7 @@ zokou(
   {
     nomCom: 'ping',
     categorie: 'General',
-    reaction: '⏱️',
+    reaction: '✈️🛩⚡️',
     alias: ['p']
   },
 
@@ -33,12 +33,12 @@ zokou(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `Timnasa/.999999999999/speed! ${ping}ms 🏓`, edit: {
+      text: `Timnasa;|`999999999999|;00` ${ping}ms ☆pong;00`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
     await zk.sendMessage(dest, {
       react: {
-        text: "⚡️", key: ms.key
+        text: "🚀", key: ms.key
       }})
   }
 )
