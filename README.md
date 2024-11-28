@@ -1,5 +1,5 @@
 <p align="center">
-TIMNASA bot v²
+TIMNASA MD v²
 </p>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +TIMNASA-bot;MULTI+DEVICE+WHATSAPP+BOT" alt="Typing SVG" /></a>
@@ -75,7 +75,7 @@ _Termux Setup not recommended_
 
 <table>
   <tr>
-    <td>Fredie</td>
+   <td>Fredie</td><'
     <td>TimothTimnasa</td>
   </tr>
   <tr>
@@ -94,5 +94,7 @@ Fredi•fixed sleeping problem
 ```
 
 * [🧑‍💻 Follow The Timotheo whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VarwsIB8F2pG9QWm3n1Z)
+***
+** * **[🧑‍💻 Follow The Timotheo whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VarwsIB8F2pG9QWm3n1Z)
 
 
