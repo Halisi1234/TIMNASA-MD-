@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "tkminc", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "channel1", reaction: "👾⭐💥", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = 'Hello 👋\n\nClick The link below to Join ⬡┃TIMNASA-MD ┃⬡ WhatsApp channel\n\n';
     let d = 'https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31';
@@ -23,7 +23,7 @@ zokou({ nomCom: "channel", reaction: "😌", nomFichier: __filename }, async (de
     //console.log("montest")
 });
 console.log("mon test");
-/*module.exports.commande = () => {
+`/*module.exports.commande = (love) => {
   var nomCom = ["test","t"]
   var reaction="☺️"
   return { nomCom, execute,reaction }
