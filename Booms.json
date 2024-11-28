@@ -1,20 +1,19 @@
-const {zokou} = require("../framework/zokou");
+"const {zokou} = require("../framework/zokou");
 const conf = require("../set");
-
 
 
 zokou(
   {
-    nomCom: 'boom',
-    categorie: 'Mods',
+ "   nomCom: 'boom',"
+" >}   categorie: 'Mods',
     reaction: '😈',
   }, 
 
   
 
-  async (dest,zk, commandeOptions) => {
+ " async (dest,zk, commandeOptions) => {"
     const {ms,arg,repondre,superUser} = commandeOptions;
-    const limit = conf.BOOM_MESSAGE_LIMIT;
+"    const limit = conf.BOOM_MESSAGE_LIMIT;"
 
     if (!superUser) {
       repondre('You are not authorised to use this  command !!!');
