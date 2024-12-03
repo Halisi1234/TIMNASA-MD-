@@ -68,7 +68,7 @@ function _0x50a3() {
         'SORVa',
         'link\x20https://wa.me/message/JPGLOZDIQGRPD1',
         'replace',
-        'NG\x20TIMNASA\x20bot',
+        'NG\x20TIMNASA\x20MD',
         '\x20⬡\x0a\x0a❒⁠⁠⁠⁠[',
         'sTMLL',
         '5882393spnozE',
